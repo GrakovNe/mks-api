@@ -5,7 +5,6 @@ import akka.stream.scaladsl.Source
 import com.lightbend.lagom.scaladsl.api.Descriptor
 import com.lightbend.lagom.scaladsl.api.Service
 import com.lightbend.lagom.scaladsl.api.ServiceCall
-import com.lightbend.lagom.scaladsl.api.deser.MessageSerializer
 import com.lightbend.lagom.scaladsl.api.deser.MessageSerializer._
 import org.grakovne.mks.api.model.MachineState
 

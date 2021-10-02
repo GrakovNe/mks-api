@@ -15,7 +15,8 @@ lazy val `mks-api` = (project in file("."))
 lazy val `mks-api-api` = (project in file("mks-api-api"))
   .settings(
     libraryDependencies ++= Seq(
-      lagomScaladslApi
+      lagomScaladslApi,
+      lagomScaladslPubSub
     )
   )
 
